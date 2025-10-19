@@ -9,11 +9,14 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Sends out a signal to all output ports when:
+- The four pairs of inputs each pass an XOR gate,
+- The outputs of those XOR gates pass two AND gates,
+- The outputs of those AND gates pass an XNOR gate
 
 ## How to test
 
-Explain how to use your project
+Set all inputs to 0, or set one input in each pair as a 1 and the other as a 0, then check if the outputs are powered in both scenarios.
 
 ## External hardware
 
